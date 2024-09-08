@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="final_proj.css">
+</head>
+<body>
+    <div class="cart">
+        <h1>Shopping Cart</h1>
+        <ul id="cart-items">
+            <li class="cart-item" data-id="1">
+                <span class="img"><img src="https://icons.iconarchive.com/icons/michael/coke-pepsi/256/Coca-Cola-Can-icon.png" width="50px" height="50px"> &nbsp;&nbsp;</span>
+                <span class="item-name">Coke</span>
+                <span class="item-price">$0.99</span>
+                <button class="like-btn">♡</button>
+                <button class="decrement">-</button>
+                <span class="item-quantity">1</span>
+                <button class="increment">+</button>
+                <button class="delete">Remove</button>
+            </li>
+        </ul>
+        <ul id="cart-items">
+            <li class="cart-item" data-id="1">
+                <span class="img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Cheeseburger.png/1024px-Cheeseburger.png" width="60px" height="40px"></span>
+                <span class="item-name">Cheeseburger</span>
+                <span class="item-price">$2.99</span>
+                <button class="like-btn">♡</button>
+                <button class="decrement">-</button>
+                <span class="item-quantity">1</span>
+                <button class="increment">+</button>
+                <button class="delete">Remove</button>
+            </li>
+        </ul>
+        <ul id="cart-items">
+            <li class="cart-item" data-id="1">
+                <span class="img"><img src="https://pngimg.com/d/pizza_PNG43991.png" width="50px" height="50px"> &nbsp;</span>
+                <span class="item-name">Pepperoni Pizza</span>
+                <span class="item-price">$12.99</span>
+                <button class="like-btn">♡</button>
+                <button class="decrement">-</button>
+                <span class="item-quantity">1</span>
+                <button class="increment">+</button>
+                <button class="delete">Remove</button>
+            </li>
+        </ul>
+        <div class="total">
+            <span>Total : $<span id="total-price">12.013</span></span>
+        </div>
+    </div>
+    <script src="final_proj.js"></script>
+    <script type="text/javascript" src="cart.js"></script>
+</body>
+</html>

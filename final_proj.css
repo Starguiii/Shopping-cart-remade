@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #a7a7a7;
+}
+
+.cart {
+    background-color: #ff0000;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #e4e4e4;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #7a7a7a;
+    border-radius: 10px;
+}
+
+.item-name {
+    flex: 1;
+}
+
+.item-price, .item-quantity {
+    margin: 0 10px;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.like-btn.liked {
+    color: red;
+}
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Courier, monospace;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: background-color 0.5s ease-out;
+    background-color: #5792ff;
+    border-radius: 5px;
+    border: grey solid 1px;
+}
+
+.total {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-left: 3rem; ;
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #377cfd;
+    margin-bottom: 30px;
+}
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000;
+    opacity: 0.9;
+}
+button:hover{
+    background-color: #00438f;
+    color: white;
+}
